@@ -2,7 +2,7 @@
 TTGO T-Beam GPS example
 
 ## Howto
-Flash it to your board using Arduino IDE (see my TTGO-T-Beam-Blinking example for details).
+Flash it to your board using Arduino IDE (see my [TTGO-T-Beam-Blinking example](https://github.com/luckynrslevin/TTGO-T-Beam-Blinking) for details).
 
 Connect to via serial console to your board, e.g. on mac you can use screen:
 ```
