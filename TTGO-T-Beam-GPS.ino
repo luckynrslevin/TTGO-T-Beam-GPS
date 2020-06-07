@@ -6,9 +6,6 @@
 #define GPS_BANUD_RATE 9600
 #define GPS_RX_PIN 34
 #define GPS_TX_PIN 12
-#define BUTTON_PIN 38
-#define BUTTON_PIN_MASK GPIO_SEL_38
-#define GPS_POWER_CTRL_CH 3
 
 #define I2C_SDA 21
 #define I2C_SCL 22
