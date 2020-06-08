@@ -3,7 +3,7 @@
 #include <TinyGPS++.h>
 
 #define UBLOX_GPS_OBJECT()  TinyGPSPlus gps
-#define GPS_BANUD_RATE 9600
+#define GPS_BAUD_RATE 9600
 #define GPS_RX_PIN 34
 #define GPS_TX_PIN 12
 
@@ -90,7 +90,7 @@ void setup() {
       Serial.println("AXP192 not found");
   }
       
-  Serial1.begin(GPS_BANUD_RATE, SERIAL_8N1, GPS_RX_PIN, GPS_TX_PIN);
+  Serial1.begin(GPS_BAUD_RATE, SERIAL_8N1, GPS_RX_PIN, GPS_TX_PIN);
 }
 
 void loop() {
